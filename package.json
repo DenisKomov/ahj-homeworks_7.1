@@ -1,0 +1,22 @@
+{
+  "name": "@deniskomov/ahj-homeworks_7.1",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever src/js/app.js",
+    "watch": "forever -w src/js/app.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "forever": "^4.0.3",
+    "koa": "^2.15.3",
+    "koa-body": "^4.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-static": "^5.0.0",
+    "uuid": "^11.0.3"
+  }
+}
