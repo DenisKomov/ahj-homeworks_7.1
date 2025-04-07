@@ -1,10 +1,17 @@
 {
   "name": "@deniskomov/ahj-homeworks_7.1",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/s9wl2n5nttgqgoqy?svg=true)](https://ci.appveyor.com/project/DenisKomov/ahj-homeworks-7-1)",
+  "homepage": "https://github.com/DenisKomov/ahj-homeworks_7.1#readme",
+  "bugs": {
+    "url": "https://github.com/DenisKomov/ahj-homeworks_7.1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenisKomov/ahj-homeworks_7.1.git"
+  },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "forever src/js/app.js",
@@ -18,5 +25,6 @@
     "koa-cors": "^0.0.16",
     "koa-static": "^5.0.0",
     "uuid": "^11.0.3"
-  }
+  },
+  "devDependencies": {}
 }
